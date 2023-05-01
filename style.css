@@ -217,8 +217,7 @@ main::before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 588px;
-    height: 499px;
+    max-width: 588px;
     border-radius: 16px;
     margin-right: 24px;
     cursor: pointer;
@@ -234,7 +233,8 @@ main::before {
     background-image: url(/images/1.png);
     background-repeat: no-repeat;
     background-size: 588px 260px;
-    width: 588px;
+    max-width: 588px;
+    width: 100%;
     height: 260px;
     flex-direction: column;
     align-items: flex-start;
@@ -321,8 +321,7 @@ main::before {
     background-image: url(/images/2.png);
     background-repeat: no-repeat;
     background-size: 588px 260px;
-    width: 588px;
-    height: 260px;
+    max-width: 588px;
 }
 
 /* Остальные 6 карточек меньшего размера */
@@ -337,6 +336,7 @@ main::before {
 .wrapper__general-cart {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 24px;
     cursor: pointer;
@@ -346,7 +346,7 @@ main::before {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 384px;
+    max-width: 384px;
     height: 475px;
     border-radius: 16px;
     margin-right: 24px;
@@ -464,11 +464,13 @@ main::before {
     margin-right: 24px;
     background: #ffffff;
     border-radius: 16px;
+    margin-top: 24px;
 }
 
 .wrapper__general-cart-6 {
     background: #ffffff;
     border-radius: 16px;
+    margin-top: 24px;
 }
 
 .wrapper__general-cart-option-3 {
@@ -626,4 +628,290 @@ button[type='submit'] {
     opacity: 0.7;
     margin-right: 48px;
     cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+    .container .button {
+        display: none;
+    }
+    .container-main {
+        max-width: 960px;
+    }
+    .nav-list {
+        max-width: 950px;
+        flex-wrap: wrap;
+    }
+    .nav-list__item {
+        margin-bottom: 8px;
+    }
+    .cart {
+        max-width: 468px;
+        max-height: 499px;
+    }
+    .cart__bottom {
+        max-width: 468px;
+        max-height: 240px;
+    }
+    .cart__two {
+        max-width: 468px;
+        max-height: 499px;
+    }
+    .cart__bottom-header {
+        line-height: 26px;
+    }
+    .cart__bottom-parh {
+        line-height: 20px;
+        padding: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 48px;
+    }
+    .cart__bottom-date {
+        margin-top: 60px;
+    }
+    .wrapper__general-cart {
+        max-width: 960px;
+    }
+    .wrapper__general-cart-1,
+    .wrapper__general-cart-2,
+    .wrapper__general-cart-3 {
+        max-width: 304px;
+        max-height: 458px;
+    }
+    .wrapper__general-cart-option,
+    .wrapper__general-cart-option-2,
+    .wrapper__general-cart-option-3,
+    .wrapper__general-cart-option-4,
+    .wrapper__general-cart-option-5,
+    .wrapper__general-cart-option-6 {
+        max-width: 304px;
+        height: 206px;
+        background-size: 304px 206px;
+    }
+    .wrapper__general-header {
+        line-height: 26px;
+    }
+    .wrapper__general-parh {
+        line-height: 20px;
+        padding: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 14px;
+    }
+    .wrapper__general-date {
+        margin-right: 230px;
+    }
+    .wrapper__general-bottom {
+        max-width: 306px;
+        height: 253px;
+    }
+    .button__second {
+        margin-left: 389px;
+    }
+    main::before {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 728px;
+    }
+    nav {
+        display: none;
+    }
+    .img-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img-logo::after {
+        content: url(/images/Burger-menu.svg);
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        margin-left: 637px;
+    }
+    .container-main {
+        max-width: 728px;
+    }
+    .wrapper__cart {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+    .cart {
+        max-width: 728px;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .cart__two {
+        max-width: 728px;
+        width: 100%;
+    }
+    .cart__bottom {
+        max-width: 728px;
+        width: 100%;
+    }
+    .cart__general {
+        background-size: 728px 404px;
+        max-width: 728px;
+        width: 100%;
+        height: 404px;
+    }
+    .wrapper__general-cart {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wrapper__general-cart-1,
+    .wrapper__general-cart-2,
+    .wrapper__general-cart-3,
+    .wrapper__general-cart-4,
+    .wrapper__general-cart-5,
+    .wrapper__general-cart-6 {
+        max-width: 340px;
+        width: 100%;
+        margin-right: 24px;
+        margin-top: 24px;
+    }
+    .wrapper__general-cart-option,
+    .wrapper__general-cart-option-2,
+    .wrapper__general-cart-option-3,
+    .wrapper__general-cart-option-4,
+    .wrapper__general-cart-option-5,
+    .wrapper__general-cart-option-6 {
+        max-width: 352px;
+        background-size: 352px 206px;
+    }
+    .wrapper__general-bottom {
+        max-width: 352px;
+    }
+    .button__second {
+        margin-left: 270px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container {
+        max-width: 374px;
+    }
+    .img-logo::after {
+        content: url(/images/Burger-menu.svg);
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        margin-left: 277px;
+    }
+    .container-main {
+        max-width: 374px;
+    }
+    .nav-list {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+    .nav-list__item {
+        white-space: nowrap;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .cart__general {
+        background-size: 374px 206px;
+        max-width: 374px;
+        width: 100%;
+        height: 206px;
+    }
+    .cart__bottom-parh {
+        margin-bottom: 25px;
+    }
+    .wrapper__general-cart {
+        margin-top: 0;
+    }
+    .wrapper__general-cart-option,
+    .wrapper__general-cart-option-2,
+    .wrapper__general-cart-option-3,
+    .wrapper__general-cart-option-4,
+    .wrapper__general-cart-option-5,
+    .wrapper__general-cart-option-6 {
+        max-width: 374px;
+        background-size: 374px 206px;
+    }
+    .wrapper__general-cart-1,
+    .wrapper__general-cart-2,
+    .wrapper__general-cart-3,
+    .wrapper__general-cart-4,
+    .wrapper__general-cart-5,
+    .wrapper__general-cart-6 {
+        max-width: 374px;
+        max-height: 466px;
+    }
+    .wrapper__general-bottom {
+        max-width: 374px;
+    }
+    .button__second {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 288px;
+    }
+    .img-logo::after {
+        content: url(/images/Burger-menu.svg);
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        margin-left: 208px;
+    }
+    .container-main {
+        max-width: 288px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .cart__bottom-parh {
+        margin: 0;
+    }
+    .cart {
+        height: 471px;
+    }
+    .cart__general {
+        background-size: 288px 206px;
+        max-width: 288px;
+        width: 100%;
+        height: 206px;
+    }
+    .cart__bottom {
+        max-width: 288px;
+        height: 314px;
+    }
+    .wrapper__general-cart-1,
+    .wrapper__general-cart-2,
+    .wrapper__general-cart-3,
+    .wrapper__general-cart-4,
+    .wrapper__general-cart-5,
+    .wrapper__general-cart-6 {
+        max-width: 288px;
+        height: 484px;
+    }
+    .wrapper__general-cart-option,
+    .wrapper__general-cart-option-2,
+    .wrapper__general-cart-option-3,
+    .wrapper__general-cart-option-4,
+    .wrapper__general-cart-option-5,
+    .wrapper__general-cart-option-6 {
+        max-width: 288px;
+        background-size: 288px 206px;
+    }
+    .wrapper__general-bottom {
+        max-width: 288px;
+    }
+    .button__second {
+        margin-left: 45px;
+    }
 }
