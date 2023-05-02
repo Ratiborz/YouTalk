@@ -130,7 +130,7 @@ main {
 }
 
 main::before {
-    background-image: url(/images/Vector-krivoi.svg);
+    background-image: url(../images/Vector-krivoi.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -230,7 +230,7 @@ main::before {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url(/images/1.png);
+    background-image: url(../images/1.png);
     background-repeat: no-repeat;
     background-size: 588px 260px;
     max-width: 588px;
@@ -318,7 +318,7 @@ main::before {
 }
 
 .cart__general-two {
-    background-image: url(/images/2.png);
+    background-image: url(../images/2.png);
     background-repeat: no-repeat;
     background-size: 588px 260px;
     max-width: 588px;
@@ -355,7 +355,7 @@ main::before {
 }
 
 .wrapper__general-cart-option {
-    background-image: url(/images/3.png);
+    background-image: url(../images/3.png);
 }
 
 .wrapper__general-span {
@@ -445,7 +445,7 @@ main::before {
 }
 
 .wrapper__general-cart-option-2 {
-    background-image: url(/images/4.png);
+    background-image: url(../images/4.png);
 }
 
 .wrapper__general-cart-3 {
@@ -474,19 +474,19 @@ main::before {
 }
 
 .wrapper__general-cart-option-3 {
-    background-image: url(/images/5.png);
+    background-image: url(../images/5.png);
 }
 
 .wrapper__general-cart-option-4 {
-    background-image: url(/images/6.png);
+    background-image: url(../images/6.png);
 }
 
 .wrapper__general-cart-option-5 {
-    background-image: url(/images/7.png);
+    background-image: url(../images/7.png);
 }
 
 .wrapper__general-cart-option-6 {
-    background-image: url(/images/8.png);
+    background-image: url(../images/8.png);
 }
 
 /* Тут начинается Footer */
@@ -733,7 +733,7 @@ button[type='submit'] {
         justify-content: space-between;
     }
     .img-logo::after {
-        content: url(/images/Burger-menu.svg);
+        content: url(../images/Burger-menu.svg);
         background-repeat: no-repeat;
         background-size: 18px 18px;
         margin-left: 637px;
@@ -802,7 +802,7 @@ button[type='submit'] {
         max-width: 374px;
     }
     .img-logo::after {
-        content: url(/images/Burger-menu.svg);
+        content: url(../images/Burger-menu.svg);
         background-repeat: no-repeat;
         background-size: 18px 18px;
         margin-left: 277px;
@@ -863,7 +863,7 @@ button[type='submit'] {
         max-width: 288px;
     }
     .img-logo::after {
-        content: url(/images/Burger-menu.svg);
+        content: url(../images/Burger-menu.svg);
         background-repeat: no-repeat;
         background-size: 18px 18px;
         margin-left: 208px;

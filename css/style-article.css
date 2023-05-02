@@ -44,7 +44,7 @@ header {
 }
 
 main {
-    background-image: url(/images/full-bomb.svg);
+    background-image: url(../images/full-bomb.svg);
     background-repeat: no-repeat;
     background-position: 1300px 2450px;
 }
@@ -225,7 +225,7 @@ nav {
     background: #f3f7fe;
     border-radius: 16px;
     padding: 34px 24px 24px 24px;
-    background-image: url(/images/Quotation-marks.svg);
+    background-image: url(../images/Quotation-marks.svg);
     background-size: 55px 36px;
     background-repeat: no-repeat;
     background-position: 24px 24px;
@@ -417,7 +417,7 @@ ul {
     border-radius: 24px;
     padding: 32px;
     margin: 0;
-    background-image: url(/images/Box-present22.svg);
+    background-image: url(../images/Box-present22.svg);
     background-repeat: no-repeat;
     background-position-x: 25px;
 }
@@ -521,7 +521,7 @@ ul {
     margin-top: 24px;
     max-width: 691px;
     height: 168px;
-    background-image: url(/images/Spot.svg);
+    background-image: url(../images/Spot.svg);
     background-repeat: no-repeat;
     background-position: 225.5px 0;
     margin-bottom: 24px;
@@ -626,7 +626,7 @@ ul {
 /* START FOOTER */
 
 footer {
-    background-image: url(/images/full-footer-vector.svg), url(/images/full-footer-vectorRight.svg);
+    background-image: url(../images/full-footer-vector.svg), url(../images/full-footer-vectorRight.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: cover, 272px 240px;
     background-position: center 428px, 1440px 72px;
@@ -733,7 +733,7 @@ footer {
         display: flex;
     }
     .list__item::before {
-        content: url(/images/green-krug.svg);
+        content: url(../images/green-krug.svg);
         background-repeat: no-repeat;
         background-size: 8px 8px;
         margin-right: 16px;
@@ -796,7 +796,7 @@ footer {
     .cart__3 {
         width: 222px;
         height: 292px;
-        background-image: url(/images/True-size--2.svg);
+        background-image: url(../images/True-size--2.svg);
         background-size: 222px 292px;
     }
     .class__3--img {
@@ -848,7 +848,7 @@ footer {
         justify-content: space-between;
     }
     .img-logo::after {
-        content: url(/images/Burger-menu.svg);
+        content: url(../images/Burger-menu.svg);
         background-repeat: no-repeat;
         background-size: 18px 18px;
         margin-left: 659px;
@@ -975,7 +975,7 @@ footer {
         height: 34px;
     }
     .img-logo::after {
-        content: url(/images/Burger-menu.svg);
+        content: url(../images/Burger-menu.svg);
         background-repeat: no-repeat;
         background-size: 18px 18px;
         margin-left: 289px;
@@ -1092,7 +1092,7 @@ footer {
     }
     .cart__3 {
         display: block;
-        background-image: url(/images/REAL-size.png);
+        background-image: url(../images/REAL-size.png);
         background-repeat: no-repeat;
         max-width: 374px;
         max-height: 292px;
@@ -1130,7 +1130,7 @@ footer {
         margin: 0 auto;
     }
     .img-logo::after {
-        content: url(/images/Burger-menu.svg);
+        content: url(../images/Burger-menu.svg);
         background-repeat: no-repeat;
         background-size: 18px 18px;
         margin-left: 219px;
@@ -1221,7 +1221,7 @@ footer {
         margin-left: 0;
     }
     .cart__3 {
-        background-image: url(/images/True-size--4.svg);
+        background-image: url(../images/True-size--4.svg);
         background-repeat: no-repeat;
         max-width: 288px;
         max-height: 292px;
